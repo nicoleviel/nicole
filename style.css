@@ -1,5 +1,5 @@
 body {
-    background-color: #f5e0c5; /* creme belga */
+    background-color: #4a148c; /* ROXO ESCURO - FUNDO TOTAL! */
     font-family: 'Segoe UI', Arial, sans-serif;
     margin: 0;
     padding: 20px;
@@ -7,44 +7,44 @@ body {
 
 /* TÍTULO PRINCIPAL - PLAYLIST PIRACELLI */
 h1 {
-    color: #4a148c; /* roxo escuro */
+    color: #f3e5f5; /* roxo bem clarinho (quase branco) */
     font-size: 60px;
     text-align: center;
     font-family: 'Georgia', serif;
-    text-shadow: 3px 3px 6px rgba(74, 20, 140, 0.3);
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
     margin-top: 0;
     padding: 30px 0;
-    border-bottom: 5px solid #7b1fa2; /* borda roxa embaixo */
+    border-bottom: 5px solid #ce93d8; /* borda rosa-roxo */
     letter-spacing: 3px;
 }
 
 /* SUBTÍTULOS DOS ESTILOS */
 h2 {
-    color: #6a1b9a; /* roxo médio */
+    color: #ffffff; /* BRANCO para destacar no fundo escuro */
     font-size: 35px;
-    text-align: center;
-    background-color: #ce93d8; /* roxo clarinho */
+    text-align: left; /* ALINHADO À ESQUERDA igual aos vídeos */
+    background-color: #7b1fa2; /* roxo médio */
     padding: 10px 20px;
     border-radius: 30px;
-    margin: 40px auto 25px auto;
+    margin: 40px 0 25px 0; /* alinhado à esquerda */
     max-width: 350px;
     font-family: 'Georgia', serif;
-    border: 3px solid #7b1fa2; /* borda roxa */
-    box-shadow: 0 4px 10px rgba(106, 27, 154, 0.3);
+    border: 3px solid #ce93d8; /* borda rosa-roxo */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
-/* VÍDEOS ORGANIZADOS NO MEIO COM BORDA ROXA */
+/* VÍDEOS ALINHADOS À ESQUERDA COM BORDA ROXA */
 iframe {
     display: block;
-    margin: 20px auto; /* centraliza tudo */
+    margin: 20px 0; /* ALINHADO À ESQUERDA (sem o auto) */
     max-width: 90%;
     border-radius: 20px;
-    border: 6px solid #7b1fa2; /* borda roxa forte */
-    box-shadow: 0 8px 25px rgba(106, 27, 154, 0.4); /* sombra roxa */
+    border: 6px solid #ce93d8; /* borda rosa-roxo */
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5); /* sombra preta para destacar */
     transition: transform 0.3s ease;
 }
 
-/* EFEITO LEGAL: quando passar o mouse, o vídeo cresce um pouquinho */
+/* EFEITO LEGAL: quando passar o mouse, o vídeo cresce */
 iframe:hover {
     transform: scale(1.02);
 }
