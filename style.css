@@ -1,7 +1,35 @@
-body{
-    background-color: rgb(91, 179, 255);
+body {
+    background-color: #f5e0c5; /* creme belga - que chique! */
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
 }
-h1{
-    color: black;
-    font-size: 75px;
+
+h1 {
+    color: #5a2d0c; /* marrom escuro - raiz! */
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Georgia', serif;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+    margin-top: 0;
+}
+
+h2 {
+    color: #7a3e1a; /* marrom médio */
+    font-size: 35px;
+    text-align: center;
+    background-color: #d4a574;
+    padding: 10px 20px;
+    border-radius: 30px; /* deixou redondinho! */
+    margin: 30px auto 20px auto;
+    max-width: 350px;
+    font-family: 'Georgia', serif;
+}
+
+iframe {
+    display: block; /* cada vídeo em sua própria linha */
+    margin: 15px auto; /* centraliza os vídeos */
+    max-width: 100%; /* não estoura a tela */
+    border-radius: 15px; /* bordas arredondadas - mais bonito! */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2); /* sombra suave - efeito profissional! */
 }
