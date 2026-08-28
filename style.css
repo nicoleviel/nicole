@@ -1,27 +1,51 @@
+
 body {
-    background-color: #121212;
-    color: white;
-    font-family: Arial, sans-serif;
-    text-align: center;
+    background-color: #4a148c; /* ROXO ESCURO - FUNDO TOTAL! */
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
 }
 
+/* TÍTULO PRINCIPAL - PLAYLIST PIRACELLI */
 h1 {
-    color: #00ff88;
+    color: #f3e5f5; /* roxo bem clarinho (quase branco) */
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Georgia', serif;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+    margin-top: 0;
+    padding: 30px 0;
+    border-bottom: 5px solid #ce93d8; /* borda rosa-roxo */
+    letter-spacing: 3px;
 }
 
-.musicas {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    padding: 20px;
+/* SUBTÍTULOS DOS ESTILOS */
+h2 {
+    color: #ffffff; /* BRANCO para destacar no fundo escuro */
+    font-size: 35px;
+    text-align: left; /* ALINHADO À ESQUERDA igual aos vídeos */
+    background-color: #7b1fa2; /* roxo médio */
+    padding: 10px 20px;
+    border-radius: 30px;
+    margin: 40px 0 25px 0; /* alinhado à esquerda */
+    max-width: 350px;
+    font-family: 'Georgia', serif;
+    border: 3px solid #ce93d8; /* borda rosa-roxo */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
-.musica {
-    background-color: #242424;
-    padding: 20px;
-    border-radius: 15px;
+/* VÍDEOS ALINHADOS À ESQUERDA COM BORDA ROXA */
+iframe {
+    display: block;
+    margin: 20px 0; /* ALINHADO À ESQUERDA (sem o auto) */
+    max-width: 90%;
+    border-radius: 20px;
+    border: 6px solid #ce93d8; /* borda rosa-roxo */
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5); /* sombra preta para destacar */
+    transition: transform 0.3s ease;
 }
 
-.musica h2 {
-    color: #00ff88;
+/* EFEITO LEGAL: quando passar o mouse, o vídeo cresce */
+iframe:hover {
+    transform: scale(1.02);
 }
