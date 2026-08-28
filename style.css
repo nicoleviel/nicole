@@ -1,35 +1,50 @@
 body {
-    background-color: #f5e0c5; /* creme belga - que chique! */
+    background-color: #f5e0c5; /* creme belga */
     font-family: 'Segoe UI', Arial, sans-serif;
     margin: 0;
     padding: 20px;
 }
 
+/* TÍTULO PRINCIPAL - PLAYLIST PIRACELLI */
 h1 {
-    color: #5a2d0c; /* marrom escuro - raiz! */
+    color: #4a148c; /* roxo escuro */
     font-size: 60px;
     text-align: center;
     font-family: 'Georgia', serif;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+    text-shadow: 3px 3px 6px rgba(74, 20, 140, 0.3);
     margin-top: 0;
+    padding: 30px 0;
+    border-bottom: 5px solid #7b1fa2; /* borda roxa embaixo */
+    letter-spacing: 3px;
 }
 
+/* SUBTÍTULOS DOS ESTILOS */
 h2 {
-    color: #7a3e1a; /* marrom médio */
+    color: #6a1b9a; /* roxo médio */
     font-size: 35px;
     text-align: center;
-    background-color: #d4a574;
+    background-color: #ce93d8; /* roxo clarinho */
     padding: 10px 20px;
-    border-radius: 30px; /* deixou redondinho! */
-    margin: 30px auto 20px auto;
+    border-radius: 30px;
+    margin: 40px auto 25px auto;
     max-width: 350px;
     font-family: 'Georgia', serif;
+    border: 3px solid #7b1fa2; /* borda roxa */
+    box-shadow: 0 4px 10px rgba(106, 27, 154, 0.3);
 }
 
+/* VÍDEOS ORGANIZADOS NO MEIO COM BORDA ROXA */
 iframe {
-    display: block; /* cada vídeo em sua própria linha */
-    margin: 15px auto; /* centraliza os vídeos */
-    max-width: 100%; /* não estoura a tela */
-    border-radius: 15px; /* bordas arredondadas - mais bonito! */
-    box-shadow: 0 4px 15px rgba(0,0,0,0.2); /* sombra suave - efeito profissional! */
+    display: block;
+    margin: 20px auto; /* centraliza tudo */
+    max-width: 90%;
+    border-radius: 20px;
+    border: 6px solid #7b1fa2; /* borda roxa forte */
+    box-shadow: 0 8px 25px rgba(106, 27, 154, 0.4); /* sombra roxa */
+    transition: transform 0.3s ease;
+}
+
+/* EFEITO LEGAL: quando passar o mouse, o vídeo cresce um pouquinho */
+iframe:hover {
+    transform: scale(1.02);
 }
